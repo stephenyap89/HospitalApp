@@ -1,0 +1,5 @@
+C:\Users\63906\source\repos\HospitalBLL\HospitalBLL\obj\Debug\HospitalBLL.csprojAssemblyReference.cache
+C:\Users\63906\source\repos\HospitalBLL\HospitalBLL\bin\Debug\HospitalBLL.dll
+C:\Users\63906\source\repos\HospitalBLL\HospitalBLL\bin\Debug\HospitalBLL.pdb
+C:\Users\63906\source\repos\HospitalBLL\HospitalBLL\obj\Debug\HospitalBLL.dll
+C:\Users\63906\source\repos\HospitalBLL\HospitalBLL\obj\Debug\HospitalBLL.pdb

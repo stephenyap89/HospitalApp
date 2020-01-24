@@ -1,0 +1,12 @@
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\bin\Debug\HospitalApplication.exe.config
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\bin\Debug\HospitalApplication.exe
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\bin\Debug\HospitalApplication.pdb
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\obj\Debug\HospitalApplication.csprojAssemblyReference.cache
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\obj\Debug\HospitalApplication.Properties.Resources.resources
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\obj\Debug\HospitalApplication.csproj.GenerateResource.cache
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\obj\Debug\HospitalApplication.exe
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\obj\Debug\HospitalApplication.pdb
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\obj\Debug\HospitalApplication.HomeForm.resources
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\bin\Debug\HospitalBLL.dll
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\bin\Debug\HospitalBLL.pdb
+C:\Users\63906\source\repos\HospitalBLL\HospitalApplication\obj\Debug\HospitalApplication.csproj.CopyComplete
