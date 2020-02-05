@@ -16,7 +16,11 @@ namespace HospitalApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomeForm());
+            //Application.Run(new Prompt());
+            //Application.Run(new SettingsForm());
+            //Application.Run(new HomeForm());
+            Application.Run(new MdiForm());
+            //Application.Run(new SettingsForm());
         }
     }
 }
