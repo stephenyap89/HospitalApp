@@ -42,17 +42,17 @@
             // 
             // TxtDoctorLastName
             // 
-            this.TxtDoctorLastName.Location = new System.Drawing.Point(209, 101);
+            this.TxtDoctorLastName.Location = new System.Drawing.Point(210, 127);
             this.TxtDoctorLastName.Name = "TxtDoctorLastName";
             this.TxtDoctorLastName.Size = new System.Drawing.Size(100, 21);
             this.TxtDoctorLastName.TabIndex = 2;
             // 
             // TxtDoctorFirstName
             // 
-            this.TxtDoctorFirstName.Location = new System.Drawing.Point(209, 127);
+            this.TxtDoctorFirstName.Location = new System.Drawing.Point(210, 101);
             this.TxtDoctorFirstName.Name = "TxtDoctorFirstName";
             this.TxtDoctorFirstName.Size = new System.Drawing.Size(100, 21);
-            this.TxtDoctorFirstName.TabIndex = 3;
+            this.TxtDoctorFirstName.TabIndex = 1;
             // 
             // CboDoctorDepartment
             // 
@@ -63,12 +63,12 @@
             this.CboDoctorDepartment.Location = new System.Drawing.Point(209, 153);
             this.CboDoctorDepartment.Name = "CboDoctorDepartment";
             this.CboDoctorDepartment.Size = new System.Drawing.Size(182, 21);
-            this.CboDoctorDepartment.TabIndex = 4;
+            this.CboDoctorDepartment.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(144, 108);
+            this.label2.Location = new System.Drawing.Point(145, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 13);
             this.label2.TabIndex = 5;
@@ -77,7 +77,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(145, 134);
+            this.label3.Location = new System.Drawing.Point(146, 104);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 6;
@@ -86,7 +86,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(140, 161);
+            this.label4.Location = new System.Drawing.Point(140, 156);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 7;
@@ -117,12 +117,12 @@
             this.TxtDoctorId.Location = new System.Drawing.Point(209, 75);
             this.TxtDoctorId.Name = "TxtDoctorId";
             this.TxtDoctorId.Size = new System.Drawing.Size(100, 21);
-            this.TxtDoctorId.TabIndex = 11;
+            this.TxtDoctorId.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(149, 82);
+            this.label1.Location = new System.Drawing.Point(151, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 13);
             this.label1.TabIndex = 12;

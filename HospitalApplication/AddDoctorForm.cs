@@ -18,11 +18,11 @@ namespace HospitalApplication
     public partial class AddDoctorForm : Form
     {
         private readonly string _xmlPath = $"{Directory.GetCurrentDirectory()}{Settings.FILENAME}";
-        private Doctor _doctor;
+        //private Doctor _doctor;
         private DoctorManager _doctorManager;
         public AddDoctorForm(Doctor doctor = null)
         {
-            _doctor = doctor;
+            //_doctor = doctor;
             _doctorManager = new DoctorManager();
             InitializeComponent();
         }
@@ -41,17 +41,17 @@ namespace HospitalApplication
                 try
                 {
                     doctor.Id = Convert.ToInt32(TxtDoctorId.Text);
-                    doctor.LastName = TxtDoctorLastName.Text;
                     doctor.FirstName = TxtDoctorFirstName.Text;
+                    doctor.LastName = TxtDoctorLastName.Text;
                     doctor.Department = CboDoctorDepartment.Text;
                     if (true)
                     {
                         _doctorManager.AddDoctor(doctor);
                         MessageBox.Show("New doctor record added!");
-                        doctor.Id += 1;
                         var xml = XDocument.Load(_xmlPath);
                         xml.Element(Settings.SETTINGS).Element(Settings.DATA).Element(Settings.DOCTOR_ID).Value = doctor.Id.ToString();
                         xml.Save(_xmlPath);
+
                         this.Close();
                     }
 
@@ -70,8 +70,7 @@ namespace HospitalApplication
         private void AddDoctorForm_Load(object sender, EventArgs e)
         {
             var xml = XDocument.Load(_xmlPath);
-            int id;
-            id = Convert.ToInt32(xml.Element(Settings.SETTINGS).Element(Settings.DATA).Element(Settings.DOCTOR_ID).Value);
+            int id = Convert.ToInt32(xml.Element(Settings.SETTINGS).Element(Settings.DATA).Element(Settings.DOCTOR_ID).Value) + 1; ;
             TxtDoctorId.Text = id.ToString();
         }
     }

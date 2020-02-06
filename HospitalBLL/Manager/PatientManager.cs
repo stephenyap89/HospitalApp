@@ -11,23 +11,23 @@ namespace HospitalBLL.Manager
 {
     public class PatientManager
     {
-        private PatientRepository baseRepository = new PatientRepository();
+        private PatientRepository _patientRepository = new PatientRepository();
 
         public bool AddRecord(Patient patient)
         {
-            return baseRepository.AddRecord(patient);
+            return _patientRepository.AddRecord(patient);
         }
         public IList<Patient> Read()
         {
-            return baseRepository.Read();
+            return _patientRepository.Read();
         }
         public bool Delete(List<Patient> patients)
         {
-            return baseRepository.Delete(patients);
+            return _patientRepository.Delete(patients);
         }
         public bool Update(Patient oldPatientRecord, Patient newPatientRecord)
         {
-            return baseRepository.Update(oldPatientRecord, newPatientRecord);
+            return _patientRepository.Update(oldPatientRecord, newPatientRecord);
         }
 
         

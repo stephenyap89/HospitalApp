@@ -93,7 +93,7 @@
             this.DateOfConsultation.Location = new System.Drawing.Point(119, 119);
             this.DateOfConsultation.Name = "DateOfConsultation";
             this.DateOfConsultation.Size = new System.Drawing.Size(100, 21);
-            this.DateOfConsultation.TabIndex = 36;
+            this.DateOfConsultation.TabIndex = 5;
             // 
             // TxtDiagnosis
             // 
@@ -101,7 +101,7 @@
             this.TxtDiagnosis.Location = new System.Drawing.Point(119, 151);
             this.TxtDiagnosis.Name = "TxtDiagnosis";
             this.TxtDiagnosis.Size = new System.Drawing.Size(100, 21);
-            this.TxtDiagnosis.TabIndex = 35;
+            this.TxtDiagnosis.TabIndex = 6;
             // 
             // CboGender
             // 
@@ -113,7 +113,7 @@
             this.CboGender.Location = new System.Drawing.Point(119, 65);
             this.CboGender.Name = "CboGender";
             this.CboGender.Size = new System.Drawing.Size(100, 21);
-            this.CboGender.TabIndex = 34;
+            this.CboGender.TabIndex = 3;
             // 
             // TxtSurName
             // 
@@ -121,7 +121,7 @@
             this.TxtSurName.Location = new System.Drawing.Point(119, 39);
             this.TxtSurName.Name = "TxtSurName";
             this.TxtSurName.Size = new System.Drawing.Size(100, 21);
-            this.TxtSurName.TabIndex = 33;
+            this.TxtSurName.TabIndex = 2;
             // 
             // TxtFirstName
             // 
@@ -129,7 +129,7 @@
             this.TxtFirstName.Location = new System.Drawing.Point(119, 12);
             this.TxtFirstName.Name = "TxtFirstName";
             this.TxtFirstName.Size = new System.Drawing.Size(100, 21);
-            this.TxtFirstName.TabIndex = 32;
+            this.TxtFirstName.TabIndex = 1;
             // 
             // label5
             // 
@@ -188,7 +188,7 @@
             this.TxtId.Location = new System.Drawing.Point(331, 12);
             this.TxtId.Name = "TxtId";
             this.TxtId.Size = new System.Drawing.Size(100, 21);
-            this.TxtId.TabIndex = 39;
+            this.TxtId.TabIndex = 20;
             // 
             // TxtMobile
             // 
@@ -196,7 +196,7 @@
             this.TxtMobile.Location = new System.Drawing.Point(331, 42);
             this.TxtMobile.Name = "TxtMobile";
             this.TxtMobile.Size = new System.Drawing.Size(100, 21);
-            this.TxtMobile.TabIndex = 40;
+            this.TxtMobile.TabIndex = 7;
             // 
             // TxtEmail
             // 
@@ -204,7 +204,7 @@
             this.TxtEmail.Location = new System.Drawing.Point(331, 69);
             this.TxtEmail.Name = "TxtEmail";
             this.TxtEmail.Size = new System.Drawing.Size(100, 21);
-            this.TxtEmail.TabIndex = 41;
+            this.TxtEmail.TabIndex = 8;
             // 
             // TxtAddress1
             // 
@@ -212,7 +212,7 @@
             this.TxtAddress1.Location = new System.Drawing.Point(331, 98);
             this.TxtAddress1.Name = "TxtAddress1";
             this.TxtAddress1.Size = new System.Drawing.Size(100, 21);
-            this.TxtAddress1.TabIndex = 42;
+            this.TxtAddress1.TabIndex = 9;
             // 
             // TxtAddress2
             // 
@@ -220,7 +220,7 @@
             this.TxtAddress2.Location = new System.Drawing.Point(331, 127);
             this.TxtAddress2.Name = "TxtAddress2";
             this.TxtAddress2.Size = new System.Drawing.Size(100, 21);
-            this.TxtAddress2.TabIndex = 43;
+            this.TxtAddress2.TabIndex = 10;
             // 
             // TxtCity
             // 
@@ -228,7 +228,7 @@
             this.TxtCity.Location = new System.Drawing.Point(331, 154);
             this.TxtCity.Name = "TxtCity";
             this.TxtCity.Size = new System.Drawing.Size(100, 21);
-            this.TxtCity.TabIndex = 44;
+            this.TxtCity.TabIndex = 11;
             // 
             // TxtProvince
             // 
@@ -236,7 +236,7 @@
             this.TxtProvince.Location = new System.Drawing.Point(331, 181);
             this.TxtProvince.Name = "TxtProvince";
             this.TxtProvince.Size = new System.Drawing.Size(100, 21);
-            this.TxtProvince.TabIndex = 45;
+            this.TxtProvince.TabIndex = 12;
             // 
             // TxtZip
             // 
@@ -244,7 +244,7 @@
             this.TxtZip.Location = new System.Drawing.Point(331, 235);
             this.TxtZip.Name = "TxtZip";
             this.TxtZip.Size = new System.Drawing.Size(100, 21);
-            this.TxtZip.TabIndex = 47;
+            this.TxtZip.TabIndex = 14;
             // 
             // label6
             // 
@@ -352,7 +352,7 @@
             this.TxtAge.Location = new System.Drawing.Point(119, 92);
             this.TxtAge.Name = "TxtAge";
             this.TxtAge.Size = new System.Drawing.Size(100, 21);
-            this.TxtAge.TabIndex = 59;
+            this.TxtAge.TabIndex = 4;
             // 
             // label16
             // 
@@ -373,7 +373,7 @@
             this.CboDoctor.Location = new System.Drawing.Point(331, 265);
             this.CboDoctor.Name = "CboDoctor";
             this.CboDoctor.Size = new System.Drawing.Size(121, 21);
-            this.CboDoctor.TabIndex = 61;
+            this.CboDoctor.TabIndex = 15;
             // 
             // CboCountry
             // 
@@ -387,7 +387,7 @@
             this.CboCountry.Location = new System.Drawing.Point(331, 208);
             this.CboCountry.Name = "CboCountry";
             this.CboCountry.Size = new System.Drawing.Size(121, 21);
-            this.CboCountry.TabIndex = 62;
+            this.CboCountry.TabIndex = 13;
             // 
             // AddPatientForm
             // 
