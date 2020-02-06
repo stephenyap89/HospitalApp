@@ -17,11 +17,15 @@ namespace HospitalApplication
 {
     public partial class AddPatientForm : Form
     {
+        private readonly DoctorManager _doctormanager;
         private PatientManager _manager;
         private readonly string _xmlPath = $"{Directory.GetCurrentDirectory()}{Settings.FILENAME}";
-      
+        private readonly IList<Doctor> _doctorList;
+
         public AddPatientForm(Patient patient = null)
         {
+            _doctormanager = new DoctorManager();
+            _doctorList = _doctormanager.Read();
             _manager = new PatientManager();
             InitializeComponent();
         }
@@ -80,24 +84,33 @@ namespace HospitalApplication
             id = Convert.ToInt32(xml.Element("Settings").Element("Data").Element("PatientId").Value) + 1;
             TxtId.Text = id.ToString();
 
-            //if (_patient != null)
-            //{
-            //    TxtFirstName.Text = _patient.FirstName;
-            //    TxtSurName.Text = _patient.SurName;
-            //    CboGender.SelectedItem = _patient.Gender;
-            //    DateOfConsultation.Value = _patient.DateOfConsultation;
-            //    TxtDiagnosis.Text = _patient.Diagnosis;
-            //    this.Text = "Edit Patient Form";
-            //}
-            //else
-            //{
-            //    this.Text = "Add Patient Form";
-            //}
+            DisplayDoctorInListView(_doctorList);
+
+
         }
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void DisplayDoctorInListView(IList<Doctor> doctorList)
+        {
+            foreach (var doctor in doctorList)
+            {
+                CboDoctor.Items.Add(doctor.FirstName + " " + doctor.LastName + ", " + doctor.Department);
+            }
+            
+            
+        }
+
+        private void TxtAge_Leave(object sender, EventArgs e)
+        {
+            int age = Convert.ToInt32(TxtAge.Text);
+            if (age <= 21)
+            {
+                
+            }
         }
     }
 }

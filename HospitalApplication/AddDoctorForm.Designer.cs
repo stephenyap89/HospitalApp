@@ -58,8 +58,8 @@
             // 
             this.CboDoctorDepartment.FormattingEnabled = true;
             this.CboDoctorDepartment.Items.AddRange(new object[] {
-            "Pediatrics and Family",
-            "Community Medicine"});
+            "Pediatrics",
+            "Family and Community Medicine"});
             this.CboDoctorDepartment.Location = new System.Drawing.Point(209, 153);
             this.CboDoctorDepartment.Name = "CboDoctorDepartment";
             this.CboDoctorDepartment.Size = new System.Drawing.Size(182, 21);

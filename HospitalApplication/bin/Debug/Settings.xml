@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Settings>
-  <HospitalName>SUMC</HospitalName>
+  <HospitalName>HCH</HospitalName>
   <Paths>
     <PatientCsv>C:\\Users\\Administrator\\source\\repos\\HospitalBLL\\HospitalBLL\\CSV\\Patient.csv</PatientCsv>
     <DoctorCsv>C:\\Users\\Administrator\\source\\repos\\HospitalBLL\\HospitalBLL\\CSV\\Doctor.csv</DoctorCsv>
   </Paths>
   <Data>
-    <PatientId>426</PatientId>
-    <DoctorId>108</DoctorId>
+    <PatientId>406</PatientId>
+    <DoctorId>106</DoctorId>
   </Data>
 </Settings>

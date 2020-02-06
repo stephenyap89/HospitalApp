@@ -47,5 +47,11 @@ namespace HospitalApplication
             }
             ListViewDoctor.Items.AddRange(listViewItems.ToArray());
         }
+
+        private void DeleteBtn_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
     }
 }

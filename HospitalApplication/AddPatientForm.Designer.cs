@@ -353,6 +353,7 @@
             this.TxtAge.Name = "TxtAge";
             this.TxtAge.Size = new System.Drawing.Size(100, 21);
             this.TxtAge.TabIndex = 4;
+            this.TxtAge.Leave += new System.EventHandler(this.TxtAge_Leave);
             // 
             // label16
             // 
@@ -367,9 +368,6 @@
             // CboDoctor
             // 
             this.CboDoctor.FormattingEnabled = true;
-            this.CboDoctor.Items.AddRange(new object[] {
-            "Sayson",
-            "Oracion"});
             this.CboDoctor.Location = new System.Drawing.Point(331, 265);
             this.CboDoctor.Name = "CboDoctor";
             this.CboDoctor.Size = new System.Drawing.Size(121, 21);
