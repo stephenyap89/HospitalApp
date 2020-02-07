@@ -21,13 +21,16 @@ namespace HospitalApplication
         private PatientManager _patientmanager;
         private readonly string _xmlPath = $"{Directory.GetCurrentDirectory()}{Settings.FILENAME}";
         private readonly IList<Doctor> _doctorList;
+        private readonly IList<Patient> _patientList;
         private int age;
 
         public AddPatientForm(Patient patient = null)
         {
+            _patientmanager = new PatientManager();
             _doctormanager = new DoctorManager();
             _doctorList = _doctormanager.Read();
-            _patientmanager = new PatientManager();
+            _patientList = _patientmanager.Read();
+            
             InitializeComponent();
         }
 
@@ -84,10 +87,6 @@ namespace HospitalApplication
             int id;
             id = Convert.ToInt32(xml.Element("Settings").Element("Data").Element("PatientId").Value) + 1;
             TxtId.Text = id.ToString();
-
-            
-
-
         }
 
         private void SaveButton_Click(object sender, EventArgs e)

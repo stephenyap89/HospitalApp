@@ -130,7 +130,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtPatientPath);
             this.Controls.Add(this.TxtHospitalName);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit Settings";

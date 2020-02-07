@@ -20,10 +20,12 @@ namespace HospitalApplication
         private readonly string _xmlPath = $"{Directory.GetCurrentDirectory()}{Settings.FILENAME}";
         //private Doctor _doctor;
         private DoctorManager _doctorManager;
+        private readonly IList<Doctor> _doctorList;
         public AddDoctorForm(Doctor doctor = null)
         {
             //_doctor = doctor;
             _doctorManager = new DoctorManager();
+            _doctorList = _doctorManager.Read();
             InitializeComponent();
         }
 

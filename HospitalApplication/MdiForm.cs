@@ -83,53 +83,10 @@ namespace HospitalApplication
             var xml = XDocument.Load(_xmlPath);
             string hospitalname = xml.Element("Settings").Element("HospitalName").Value;
             this.Text = hospitalname;
-            DisplayPatientInListView(_patientList);
-            DisplayDoctorInListView(_doctorList);
         }
 
-        private void DisplayPatientInListView(IList<Patient> patientList)
-        {
-            ListViewPatient.Items.Clear();
-            var listViewItems = new List<ListViewItem>();
-            foreach (var patient in patientList)
-            {
-                var row = new ListViewItem(patient.FirstName);
-                row.SubItems.Add(patient.SurName);
-                row.SubItems.Add(patient.Gender);
-                row.SubItems.Add(patient.Age.ToString());
-                row.SubItems.Add(patient.DateOfConsultation.ToString());
-                row.SubItems.Add(patient.Diagnosis);
-                row.SubItems.Add(patient.Id.ToString());
-                row.SubItems.Add(patient.MobileNumber);
-                row.SubItems.Add(patient.EmailAddress);
-                row.SubItems.Add(patient.Address1);
-                row.SubItems.Add(patient.Address2);
-                row.SubItems.Add(patient.City);
-                row.SubItems.Add(patient.Province);
-                row.SubItems.Add(patient.Country);
-                row.SubItems.Add(patient.ZipCode.ToString());
-                row.SubItems.Add(patient.Doctor);
-                listViewItems.Add(row);
-                row.Tag = patient;
-            }
-            ListViewPatient.Items.AddRange(listViewItems.ToArray());
-        }
+       
 
-        private void DisplayDoctorInListView(IList<Doctor> doctorList)
-        {
-            ListViewPatient.Items.Clear();
-            var listViewItems = new List<ListViewItem>();
-            foreach (var doctor in doctorList)
-            {
-                var row = new ListViewItem(doctor.Id.ToString());
-                row.SubItems.Add(doctor.FirstName);
-                row.SubItems.Add(doctor.LastName);
-                row.SubItems.Add(doctor.Department);
-               
-                listViewItems.Add(row);
-                row.Tag = doctor;
-            }
-            ListViewPatient.Items.AddRange(listViewItems.ToArray());
-        }
+        
     }
 }

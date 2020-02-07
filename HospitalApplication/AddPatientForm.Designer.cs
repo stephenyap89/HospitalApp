@@ -367,6 +367,8 @@
             // 
             // CboDoctor
             // 
+            this.CboDoctor.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.CboDoctor.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CboDoctor.FormattingEnabled = true;
             this.CboDoctor.Location = new System.Drawing.Point(331, 265);
             this.CboDoctor.Name = "CboDoctor";
@@ -426,6 +428,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddPatientForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Patient";

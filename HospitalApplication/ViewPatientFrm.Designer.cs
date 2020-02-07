@@ -109,6 +109,7 @@
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.EditBtn);
             this.Controls.Add(this.ListViewPatient);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ViewPatientFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "View/Edit Patient";

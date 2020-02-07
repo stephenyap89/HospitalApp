@@ -56,6 +56,8 @@
             // 
             // CboDoctorDepartment
             // 
+            this.CboDoctorDepartment.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.CboDoctorDepartment.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CboDoctorDepartment.FormattingEnabled = true;
             this.CboDoctorDepartment.Items.AddRange(new object[] {
             "Pediatrics",
@@ -132,6 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(484, 361);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtDoctorId);
@@ -144,6 +147,7 @@
             this.Controls.Add(this.TxtDoctorFirstName);
             this.Controls.Add(this.TxtDoctorLastName);
             this.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddDoctorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add Doctor";
